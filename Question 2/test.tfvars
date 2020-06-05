@@ -1,0 +1,11 @@
+
+location                        = ["westus","eastus"]
+vnet_cidr_range                 = ["10.1.0.0/20","10.2.0.0/20"]
+vnet_dns_server                 = ["10.1.0.171","10.2.0.171"]
+subnet_name_east_values         = ["web_subnet","app_subnet","data_subnet"]
+subnet_east_cidr_range_values   = ["10.2.1.0/22","10.2.4.0/22","10.2.8.0/22"]
+subnet_name_west_values         = ["web_subnet","app_subnet","data_subnet"]
+subnet_west_cidr_range_values   = ["10.1.1.0/22","10.1.4.0/22","10.1.8.0/22"]
+firewall_east_cidrRange         = ["10.3.0.171"]
+firewall_west_cidrRange         = ["10.3.0.172"]
+vm_web_names                    = ["ESOWEB0001","ESOWEB0002","ESOWEB0003"]
